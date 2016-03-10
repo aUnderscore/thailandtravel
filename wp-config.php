@@ -18,7 +18,7 @@
  * @package WordPress
  */
 // Config Wordpress
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel/wordpress');
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel');
 define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel');
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/thailandtravel/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel/wp-content');
@@ -34,9 +34,9 @@ if ($_SERVER['REMOTE_ADDR']=='127.0.0.1') {
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 if (WP_ENV == 'development') {
-	define('DB_NAME', 'database_name_here');
-	define('DB_USER', 'username_here');
-	define('DB_PASSWORD', 'password_here');
+	define('DB_NAME', 'travel');
+	define('DB_USER', 'root');
+	define('DB_PASSWORD', '');
 	define('DB_HOST', 'localhost');
 	define('DB_CHARSET', 'utf8');
 	define('DB_COLLATE', '');
@@ -92,6 +92,15 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', '127.0.0.1');
+define('PATH_CURRENT_SITE', '/thailandtravel/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
