@@ -18,11 +18,11 @@
  * @package WordPress
  */
 // Config Wordpress
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
-define('WP_DEFAULT_THEME', 'mytheme');
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel');
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/thailandtravel/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/thailandtravel/wp-content');
+define('WP_DEFAULT_THEME', 'backpacker');
 
 // Config Environment
 if ($_SERVER['REMOTE_ADDR']=='127.0.0.1') {
