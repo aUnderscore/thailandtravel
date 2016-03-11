@@ -63,8 +63,8 @@ if ( ! function_exists( 'shop_isle_primary_navigation' ) ) {
 									<li><a href="">Destinations</a></li>
 									<li><a href="">Booking</a></li>
 									<li><a href="">Shop</a></li>
-									<li style="border-right:1px solid #fff;"><a href="/thailandtravel" style="padding-right:8px">EN</a></li>
-									<li><a href="/thailandtravel/th" style="padding-left:8px">TH</a></li>
+									<li style="border-right:1px solid #fff;"><a href="/thailandtravel" style="padding-right:8px">English</a></li>
+									<li><a href="/thailandtravel/th" style="padding-left:8px">ภาษาไทย</a></li>
 								</ul>
 							</div>
 						</div>

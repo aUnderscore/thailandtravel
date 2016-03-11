@@ -41,9 +41,9 @@ if (WP_ENV == 'development') {
 	define('DB_CHARSET', 'utf8');
 	define('DB_COLLATE', '');
 } else {
-	define('DB_NAME', 'database_name_here');
-	define('DB_USER', 'username_here');
-	define('DB_PASSWORD', 'password_here');
+	define('DB_NAME', 'bedsided_thailandtravel');
+	define('DB_USER', 'bedsided_bd');
+	define('DB_PASSWORD', 'W4SsitR');
 	define('DB_HOST', 'localhost');
 	define('DB_CHARSET', 'utf8');
 	define('DB_COLLATE', '');
